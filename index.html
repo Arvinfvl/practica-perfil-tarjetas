@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tarjetas de perfil responsivas con HTML y CSS">
+    <title>Practical Time | Tarjetas de perfil</title>
+
+    <!-- Librería de iconos Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <!-- Hoja de estilos externa -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <main class="profiles" id="contenido">
+        <h1 class="profiles__title">Practical Time</h1>
+
+        <div class="profiles__grid">
+
+            <!-- Primera tarjeta -->
+            <article class="profile-card profile-card--first">
+                <div class="profile-card__cover" aria-hidden="true"></div>
+
+                <img
+                    class="profile-card__photo"
+                    src="imagenes/yo.png.jpg"
+                    alt="Fotografía mía">
+
+                <div class="profile-card__content">
+                    <h2 class="profile-card__name">Arvin</h2>
+                    <span class="profile-card__divider" aria-hidden="true"></span>
+
+                    <p class="profile-card__description">
+                        Me apasiona la tecnología, aprender nuevas habilidades
+                        y compartir ideas con otras personas.
+                    </p>
+
+                    <div class="profile-card__actions" aria-label="Contacto de Jhon Doe">
+                        <a class="profile-card__action"
+                           href="https://github.com/"
+                           aria-label="GitHub de Jhon Doe">
+                            <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                        </a>
+
+                        <a class="profile-card__action"
+                           href="https://www.whatsapp.com/"
+                           aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+
+                        <a class="profile-card__action"
+                           href="mailto:correo@ejemplo.com"
+                           aria-label="Enviar correo electrónico">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <footer class="profile-card__footer">
+                    <a href="https://www.facebook.com/" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://x.com/" aria-label="X">
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </footer>
+            </article>
+
+            <!-- Segunda tarjeta -->
+            <article class="profile-card profile-card--second">
+                <div class="profile-card__cover" aria-hidden="true"></div>
+
+                <img
+                     class="profile-card__photo"
+                     src="imagenes/pareja.png.jpeg"
+                     alt="Fotografía de mi pareja">
+
+                <div class="profile-card__content">
+                    <h2 class="profile-card__name">Valeria</h2>
+                    <span class="profile-card__divider" aria-hidden="true"></span>
+
+                    <p class="profile-card__description">
+                        Disfruto el diseño, la creatividad y crear experiencias
+                        digitales sencillas y agradables.
+                    </p>
+
+                    <div class="profile-card__actions" aria-label="Contacto de Allison Walker">
+                        <a class="profile-card__action"
+                           href="https://github.com/"
+                           aria-label="GitHub de Allison Walker">
+                            <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                        </a>
+
+                        <a class="profile-card__action"
+                           href="https://www.whatsapp.com/"
+                           aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+
+                        <a class="profile-card__action"
+                           href="mailto:correo@ejemplo.com"
+                           aria-label="Enviar correo electrónico">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <footer class="profile-card__footer">
+                    <a href="https://www.facebook.com/" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://x.com/" aria-label="X">
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </footer>
+            </article>
+
+        </div>
+    </main>
+</body>
+</html>
